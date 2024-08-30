@@ -1,0 +1,333 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\israeltech\\israelweb\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\obj\\Debug\\net8.0\\compressed\\qwb2vcyeft.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\fontAwesome.css",
+      "PackagePath": "staticwebassets\\css\\fontAwesome.css"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\css\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\light-box.css",
+      "PackagePath": "staticwebassets\\css\\light-box.css"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\css\\templatemo-main.css",
+      "PackagePath": "staticwebassets\\css\\templatemo-main.css"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\about_image.jpg",
+      "PackagePath": "staticwebassets\\img\\about_image.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\api.jpg",
+      "PackagePath": "staticwebassets\\img\\api.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\backend.jpg",
+      "PackagePath": "staticwebassets\\img\\backend.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\close.png",
+      "PackagePath": "staticwebassets\\img\\close.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\eight_big_item.jpg",
+      "PackagePath": "staticwebassets\\img\\eight_big_item.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\eight_item.jpg",
+      "PackagePath": "staticwebassets\\img\\eight_item.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\fifth_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\fifth_bg.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\fifth_big_item.jpg",
+      "PackagePath": "staticwebassets\\img\\fifth_big_item.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\fifth_item.jpg",
+      "PackagePath": "staticwebassets\\img\\fifth_item.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\first_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\first_bg.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\first_big_item.jpg",
+      "PackagePath": "staticwebassets\\img\\first_big_item.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\first_big_item.png",
+      "PackagePath": "staticwebassets\\img\\first_big_item.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\first_item.jpg",
+      "PackagePath": "staticwebassets\\img\\first_item.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\first_item.png",
+      "PackagePath": "staticwebassets\\img\\first_item.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\first_service.jpg",
+      "PackagePath": "staticwebassets\\img\\first_service.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\fourth_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\fourth_bg.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\fourth_big_item.png",
+      "PackagePath": "staticwebassets\\img\\fourth_big_item.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\fourth_item.png",
+      "PackagePath": "staticwebassets\\img\\fourth_item.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\frontend.png",
+      "PackagePath": "staticwebassets\\img\\frontend.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\fullstack.webp",
+      "PackagePath": "staticwebassets\\img\\fullstack.webp"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\languages.webp",
+      "PackagePath": "staticwebassets\\img\\languages.webp"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\img\\loading.gif"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\mini_logo.png",
+      "PackagePath": "staticwebassets\\img\\mini_logo.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\next.png",
+      "PackagePath": "staticwebassets\\img\\next.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\ninth_big_item.jpg",
+      "PackagePath": "staticwebassets\\img\\ninth_big_item.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\ninth_item.jpg",
+      "PackagePath": "staticwebassets\\img\\ninth_item.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\prev.png",
+      "PackagePath": "staticwebassets\\img\\prev.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\profile.png",
+      "PackagePath": "staticwebassets\\img\\profile.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\second_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\second_bg.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\second_big_item.png",
+      "PackagePath": "staticwebassets\\img\\second_big_item.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\second_item.png",
+      "PackagePath": "staticwebassets\\img\\second_item.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\second_service.jpg",
+      "PackagePath": "staticwebassets\\img\\second_service.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\seventh_big_item.jpg",
+      "PackagePath": "staticwebassets\\img\\seventh_big_item.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\seventh_item.jpg",
+      "PackagePath": "staticwebassets\\img\\seventh_item.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\sixth_big_item.jpg",
+      "PackagePath": "staticwebassets\\img\\sixth_big_item.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\sixth_item.jpg",
+      "PackagePath": "staticwebassets\\img\\sixth_item.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\third_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\third_bg.jpg"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\third_big_item.png",
+      "PackagePath": "staticwebassets\\img\\third_big_item.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\third_item.png",
+      "PackagePath": "staticwebassets\\img\\third_item.png"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\js\\datepicker.js",
+      "PackagePath": "staticwebassets\\js\\datepicker.js"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\js\\vendor\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\js\\vendor\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\js\\vendor\\jquery-1.11.2.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-1.11.2.min.js"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\js\\vendor\\modernizr-2.8.3-respond-1.4.2.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\modernizr-2.8.3-respond-1.4.2.min.js"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\js\\vendor\\npm.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\npm.js"
+    },
+    {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.israelweb.props",
+      "PackagePath": "build\\israelweb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.israelweb.props",
+      "PackagePath": "buildMultiTargeting\\israelweb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.israelweb.props",
+      "PackagePath": "buildTransitive\\israelweb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.israelweb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
