@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("israelweb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4676570b6060c8dc92afaa2794692fd889f71191")]
 [assembly: System.Reflection.AssemblyProductAttribute("israelweb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("israelweb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

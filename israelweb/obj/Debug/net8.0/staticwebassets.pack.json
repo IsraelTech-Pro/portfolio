@@ -113,6 +113,10 @@
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
+      "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
       "Id": "E:\\israeltech\\israelweb\\wwwroot\\img\\about_image.jpg",
       "PackagePath": "staticwebassets\\img\\about_image.jpg"
     },

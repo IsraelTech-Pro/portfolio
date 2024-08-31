@@ -1026,3 +1026,4 @@ E:\israeltech\israelweb\obj\Debug\net8.0\israelweb.dll
 E:\israeltech\israelweb\obj\Debug\net8.0\refint\israelweb.dll
 E:\israeltech\israelweb\obj\Debug\net8.0\israelweb.pdb
 E:\israeltech\israelweb\obj\Debug\net8.0\ref\israelweb.dll
+E:\israeltech\israelweb\obj\Debug\net8.0\israelweb.sourcelink.json

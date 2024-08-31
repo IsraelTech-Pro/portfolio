@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "israelweb",
   "resources": {
-    "hash": "sha256-eDkOIG1l5WRNgSOq38/i90agxWlm+MuWYfnPJEpALwo=",
+    "hash": "sha256-gWFPipQWjTQVpUMD+UiFocQqqTWo/l5ty2rek/3b1l4=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.37dkch2d2y.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "israelweb.wasm": "sha256-Ie+2e1G6UlvIRBt+bAB8KoQOcvg7Uah8SKMEpqL7JX8="
+      "israelweb.wasm": "sha256-wvW61B27+chwtP/BXWMogOFJnIMfF+dBbB/asn+zUGM="
     },
     "pdb": {
-      "israelweb.pdb": "sha256-aFfgzbbgwW3g2lFd0LwfQVd1C9IPNn6EO2OicVPfVug="
+      "israelweb.pdb": "sha256-AmcoQWC8y6R2/pfb7DT2bpzfpzGQfn5fd6dYgR0g8DY="
     }
   },
   "cacheBootResources": true,

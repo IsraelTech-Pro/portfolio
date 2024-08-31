@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "alkEf2y/uIrp5CKkjeURSCla1iE6f7NqCbbDFPFNlSs=",
+  "Hash": "d1ypWzw1dGB/q6Uxp9FC9PZWMjctvRxJPzai111be70=",
   "Source": "israelweb",
   "BasePath": "/",
   "Mode": "Root",
@@ -8280,6 +8280,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\about_image.jpg"
+    },
+    {
+      "Identity": "E:\\israeltech\\israelweb\\wwwroot\\img\\about.jpg",
+      "SourceId": "israelweb",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\israeltech\\israelweb\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/about.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\about.jpg"
     },
     {
       "Identity": "E:\\israeltech\\israelweb\\wwwroot\\img\\api.jpg",
