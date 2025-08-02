@@ -130,3 +130,215 @@ code {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+/* Contact form loading spinner overlay */
+#form-loading-overlay {
+  display: none; /* shown via JS */
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background: rgba(30,40,60,0.25);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s;
+}
+#form-loading-overlay.active {
+  display: flex;
+}
+.form-spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 6px 32px 0 rgba(30,100,200,0.13);
+}
+
+/* Success popup modal */
+#form-success-modal {
+  display: none; /* shown via JS */
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background: rgba(30,40,60,0.35);
+  z-index: 10000;
+  align-items: center;
+  justify-content: center;
+  animation: fadeInBg 0.4s;
+}
+#form-success-modal.active {
+  display: flex;
+}
+@keyframes fadeInBg {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.form-success-content {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  padding: 2.5rem 2.2rem 2rem 2.2rem;
+  text-align: center;
+  min-width: 320px;
+  max-width: 90vw;
+  animation: popIn 0.5s cubic-bezier(.4,0,.2,1);
+  position: relative;
+}
+@keyframes popIn {
+  0% { opacity: 0; transform: scale(0.7) translateY(50px); }
+  80% { opacity: 1; transform: scale(1.05) translateY(-8px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+.form-success-content h3 {
+  color: #1b6ec2;
+  margin-bottom: 0.5em;
+  font-size: 1.7em;
+}
+.form-success-content p {
+  color: #333;
+  margin-bottom: 1em;
+}
+.form-success-close {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.3rem;
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: #aaa;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.form-success-close:hover {
+  color: #1b6ec2;
+}
+
+.item {
+  background: rgba(255,255,255,0.15);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  overflow: hidden;
+  transition: transform 0.4s cubic-bezier(.4,0,.2,1), box-shadow 0.4s;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.item:hover, .item:focus-within {
+  transform: translateY(-12px) scale(1.045) rotateZ(-1deg);
+  box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.28);
+  z-index: 2;
+}
+
+.thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.thumb .image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.6s cubic-bezier(.4,0,.2,1);
+}
+
+.item:hover .thumb .image img {
+  transform: scale(1.07) rotateZ(0.5deg);
+}
+
+.hover-effect {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(120deg, rgba(30,100,200,0.22) 0%, rgba(255,255,255,0.05) 100%);
+  opacity: 0;
+  transition: opacity 0.35s cubic-bezier(.4,0,.2,1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.item:hover .hover-effect, .item:focus-within .hover-effect {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.hover-content {
+  color: #fff;
+  text-align: left;
+  padding: 2rem 1.2rem 1.2rem 1.2rem;
+  background: rgba(30,100,200,0.10);
+  border-radius: 1rem;
+  transform: translateY(30px);
+  opacity: 0;
+  transition: transform 0.5s cubic-bezier(.4,0,.2,1), opacity 0.5s;
+}
+
+.item:hover .hover-content, .item:focus-within .hover-content {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Animated reveal for each card */
+.item {
+  opacity: 0;
+  transform: translateY(40px) scale(0.97);
+  animation: cardReveal 1s cubic-bezier(.4,0,.2,1) forwards;
+}
+
+.item:nth-child(1) { animation-delay: 0.1s; }
+.item:nth-child(2) { animation-delay: 0.2s; }
+.item:nth-child(3) { animation-delay: 0.3s; }
+.item:nth-child(4) { animation-delay: 0.4s; }
+.item:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes cardReveal {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Responsive grid improvements */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 1.5rem; /* row-gap column-gap */
+}
+
+@media (max-width: 991px) {
+  .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-md-4, .col-sm-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Keep previous hero animation classes */
+.slide, .content.first-content, .author-image, .main-btn, .fb-btn {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeSlideIn 1s cubic-bezier(.4,0,.2,1) forwards;
+}
+
+.slide { animation-delay: 0.1s; }
+.content.first-content { animation-delay: 0.2s; }
+.author-image { animation-delay: 0.3s; }
+.main-btn { animation-delay: 0.5s; }
+.fb-btn { animation-delay: 0.7s; }
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

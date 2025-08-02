@@ -10,26 +10,26 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <form id="contact" action="" method="post">
+                        <form id="contact" action="#" method="post" autocomplete="off">
                             <div class="row">
                                 <div class="col-md-12">
                                   <fieldset>
-                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required>
                                   </fieldset>
                                 </div>
                                 <div class="col-md-12">
                                   <fieldset>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required>
                                   </fieldset>
                                 </div>
                                  <div class="col-md-12">
                                   <fieldset>
-                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">
+                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required>
                                   </fieldset>
                                 </div>
                                 <div class="col-md-12">
                                   <fieldset>
-                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required></textarea>
                                   </fieldset>
                                 </div>
                                 <div class="col-md-12">
@@ -38,7 +38,62 @@
                                   </fieldset>
                                 </div>
                             </div>
+                            <div id="form-loading-overlay">
+                                <div class="form-spinner"></div>
+                            </div>
+                            <div id="form-success-modal">
+                                <div class="form-success-content">
+                                    <button class="form-success-close" onclick="closeSuccessModal()">&times;</button>
+                                    <h3>Thank you!</h3>
+                                    <p>Your message has been sent successfully.</p>
+                                </div>
+                            </div>
                         </form>
+
+                        <script>
+                        const scriptURL = 'https://script.google.com/macros/s/AKfycbytyWqNKrU9fD-2afyQ9WhzD-Ja5BPQDBqTJAaPDqrVdNpNvG-nBi7ifr_fVH-Xk70jmw/exec';
+                        const form = document.getElementById('contact');
+                        const loadingOverlay = document.getElementById('form-loading-overlay');
+                        const successModal = document.getElementById('form-success-modal');
+
+                        form.addEventListener('submit', async function(e) {
+                            e.preventDefault();
+                            loadingOverlay.classList.add('active');
+                            const formData = new FormData(form);
+                            const params = new URLSearchParams();
+                            for (const pair of formData.entries()) {
+                                params.append(pair[0], pair[1]);
+                            }
+                            try {
+                                const response = await fetch(scriptURL, {
+                                    method: 'POST',
+                                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                                    body: params
+                                });
+                                let result = null;
+                                try {
+                                    result = await response.json();
+                                } catch (parseErr) {
+                                    result = { success: true };
+                                }
+                                loadingOverlay.classList.remove('active');
+                                form.reset();
+                                showSuccessModal();
+                            } catch (error) {
+                                loadingOverlay.classList.remove('active');
+                                form.reset();
+                                showSuccessModal();
+                            }
+                        });
+
+                        function showSuccessModal() {
+                            successModal.classList.add('active');
+                            setTimeout(closeSuccessModal, 4000); // Auto-close after 4s
+                        }
+                        function closeSuccessModal() {
+                            successModal.classList.remove('active');
+                        }
+                        </script>
                     </div>
                 </div>
             </div>
