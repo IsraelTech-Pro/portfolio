@@ -38,6 +38,106 @@ a, .btn-link {
 
 #blazor-error-ui {
     background: lightyellow;
+}
+
+/* === Modern Animated Gradient Background === */
+.hero-animated-bg {
+  position: absolute;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  z-index: -1;
+  background: linear-gradient(270deg, #0f2027, #2c5364, #1a2980, #26d0ce);
+  background-size: 800% 800%;
+  animation: gradientMove 18s ease infinite;
+  opacity: 0.75;
+}
+@keyframes gradientMove {
+  0% {background-position:0% 50%}
+  50% {background-position:100% 50%}
+  100% {background-position:0% 50%}
+}
+
+/* === Fade/Slide-in Animations === */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+}
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+.slide-up {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUp 1.2s cubic-bezier(.6,-0.28,.74,.05) forwards;
+}
+@keyframes slideUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* === Glowing & Interactive Button Styles === */
+.glow-btn {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 0 12px #00c6ff88;
+  padding: 0.7em 2.2em;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: box-shadow 0.2s, transform 0.2s;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.glow-btn:hover {
+  box-shadow: 0 0 32px #00c6ffcc, 0 0 8px #0072ffbb;
+  transform: scale(1.05);
+}
+
+/* === Sticky Navbar & Underline Animation === */
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(22, 34, 57, 0.95);
+  z-index: 100;
+  box-shadow: 0 2px 16px #0002;
+  backdrop-filter: blur(6px);
+}
+.animated-underline {
+  position: relative;
+}
+.animated-underline::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0; bottom: -2px;
+  width: 100%; height: 3px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: transform 0.3s cubic-bezier(.77,0,.18,1);
+}
+.animated-underline:hover::after, .animated-underline.active::after {
+  transform: scaleX(1);
+}
+
+/* === Responsive Hero Section Tweaks === */
+@media (max-width: 700px) {
+  .hero-animated-bg { height: 60vh; }
+  .content.first-content { padding-top: 2em; }
+  .author-image img { width: 90px; height: 90px; }
+}
+
+/* === Utility for Scroll Animations === */
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.9s, transform 0.9s;
+}
+.scroll-animate.visible {
+  opacity: 1;
+  transform: none;
+}
+
     bottom: 0;
     box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
     display: none;
